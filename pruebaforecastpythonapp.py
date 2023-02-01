@@ -14,6 +14,9 @@ import time
 import base64
 import io
 
+# numpy version
+print('numpy: {}'.format(np.__version__))
+
 # define the start_timestart
 
 start_time = time.time()
@@ -422,7 +425,7 @@ if uploaded_file is not None and run == True:
     # Upload data apertura secuencia
 
     #df_export_wide=pd.read_excel('G:/Mi unidad/Serie Team/Ejercicio/pruebas2023/df_export_wide.xlsx')
-    apertura_secuencia = pd.read_excel('G:/Mi unidad/Serie Team/Ejercicio/pruebas2023/aperturasecuencias.xlsx')
+    apertura_secuencia = pd.read_excel('aperturasecuencias.xlsx')
 
     # fit the negative values with 0
 
